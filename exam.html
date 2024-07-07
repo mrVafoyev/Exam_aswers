@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam: </title>
+    <link rel="stylesheet" href="./exam.css">
+    <script defer src="./exam.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Reverse String & Integers</h1>
+        <input type="text" id="reverseStrInput" placeholder="So'zni kiriting...">
+        <button onclick="reverseText()">Teskarisiga o'girish</button>
+        <p id="reversedOutput"></p>
+    </div>
+    <div class="container">
+        <h1>Palindrom</h1>
+        <input type="text" id="palindromeInputText" placeholder="So'zni kiriting...">
+        <button onclick="checkPalindrome()">Tekshirish</button>
+        <p id="palindromeResult"></p>
+    </div>
+    <div class="container">
+        <h1>Array chunking</h1>
+        <input type="text" id="inputArray" placeholder="Massivni kiriting (vergullar bilan ajrating):">
+        <input type="number" id="chunkSize" min="1" placeholder="Bo'lim uzunligini kiriting:">
+        <button onclick="chunkArray()">Bo'limlarga ajratish</button>
+        <p id="chunkedResult"></p>
+    </div>
+    <div class="container">
+        <h1>Title case</h1>
+        <input type="text" id="inputText" placeholder="So'zni kiriting...">
+        <button onclick="titleCase()">Harflarni katta qilish</button>
+        <p id="result"></p>
+    </div>
+    <div class="container">
+        <h1>Count vowels</h1>
+        <input type="text" id="vowelInputText" placeholder="So'zni kiriting...">
+        <button onclick="countVowels()">Sanovchi</button>
+        <p id="result">Unli harflar soni: <span id="vowelCount">0</span></p>
+    </div>
+    <div class="container">
+        <h1>Phone number identifier</h1>
+        <input type="text" id="inputPhoneNumber" placeholder="Telefon raqamini kiriting...">
+        <button onclick="checkPhoneNumber()">Aniqlash</button>
+        <p id="phoneNumberResult"></p>
+    </div>
+</body>
+
+</html>o
